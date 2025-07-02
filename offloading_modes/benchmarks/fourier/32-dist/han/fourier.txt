@@ -1,0 +1,24 @@
+P3DFFT++ C++ test program. Running on 32 cores
+GitVersion = v.3.1.2-6-ged71be3
+GitDate = 2023-03-07
+Executable, bench_c2c.C, was compiled with GCC/G++ (version 6974277) on Feb  6 2025 at 20:45:09
+Cannot open file. Setting to default nx=ny=nz=128, ndim=2, n=1.
+P3DFFT test C2C, 3D wave input
+Double precision
+ (128 128 128) grid
+ 2 proc. dimensions
+1 repetitions
+Testing proc grids from 1 x 32 to 32 x 1
+Using processor grid 1 x 32
+Transform time (avg/min/max): 0.015301 0.014679 0.016416
+Using processor grid 2 x 16
+Transform time (avg/min/max): 0.019584 0.017734 0.021421
+Using processor grid 4 x 8
+Transform time (avg/min/max): 0.016916 0.015736 0.018682
+Using processor grid 8 x 4
+Transform time (avg/min/max): 0.014669 0.013492 0.015934
+Using processor grid 16 x 2
+Transform time (avg/min/max): 0.015367 0.014711 0.015998
+Using processor grid 32 x 1
+Transform time (avg/min/max): 0.013829 0.012783 0.014193
+Best grid (32,1), timing 0.0141931
